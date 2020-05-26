@@ -64,6 +64,9 @@ NLP results:
 
 ![Math word problem 1](examplesTested/problem6.png)
 
+Laser Robotics Simulation results:
+
+![Simulation](examplesTested/simulator.png)
 
 
 ## Authors

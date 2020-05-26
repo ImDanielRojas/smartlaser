@@ -48,6 +48,23 @@ If you want to test the NLP module by its own. You can do it by setting the smar
 We invite you to test this software with some math word problem of your own!
 
 
+## Results
+
+NLP results:
+
+![Math word problem 1](problem1.png)
+
+![Math word problem 1](problem2.png)
+
+![Math word problem 1](problem3.png)
+
+![Math word problem 1](problem4.png)
+
+![Math word problem 1](problem5.png)
+
+![Math word problem 1](problem6.png)
+
+
 
 ## Authors
 

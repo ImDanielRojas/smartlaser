@@ -18,16 +18,20 @@ This software is divided in three main modules.
 
 ### Natural Language Processing module
 
-The NLP module consists of a hybrid model based on Deep Learning, Parsing and Naive Bayes techinques. We first started building a Recurrent Neural Network seq2seq model, built with a GRU Encoder, GRU Decoder and Bahdanau Attention. This model was tested with a broad number of datasets. However, the results were not as accurate as we desired. In order to support the lack of accuracy, we built another approach for the task. This approach consists in the parsing techinque. The math word problem will be syntactically analyzed and will detect symbols and numbers from the text and build an equation to solve with the help of a Naive Bayes model classifier.
+The NLP module consists of a hybrid model based on Deep Learning, Parsing and Naive Bayes techniques. We first started building a Recurrent Neural Network seq2seq model, built with a GRU Encoder, GRU Decoder and Bahdanau Attention. This model was tested with a broad number of datasets. However, the results were not as accurate as we desired. In order to support the lack of accuracy, we built another approach for the task. This approach consists in the parsing technique. The math word problem will be syntactically analyzed and will detect symbols and numbers from the text and build an equation to solve with the help of a Naive Bayes model classifier.
+
+### Computer Vision module
 
 
+
+### Laser Robotics Simulation module
 
 ## Authors
 
 * **Daniel Rojas Pérez** - *NLP module* - [Github account](https://github.com/danielrojasperez)
 * **Ange Xu** - *CV module* - [Github account](https://github.com/)
-* **Marcos Muñoz González** - *Laser module* - [Github account](https://github.com/marcosmgz95)
-* **Roger Piera** - *Laser module* - [Github account](https://github.com/)
+* **Marcos Muñoz González** - *Laser Robotics Simulation module* - [Github account](https://github.com/marcosmgz95)
+* **Roger Piera** - *Laser Robotics Simulation module* - [Github account](https://github.com/)
 
 ## License
 

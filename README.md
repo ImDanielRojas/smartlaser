@@ -25,7 +25,7 @@ The NLP module consists of a hybrid model based on Deep Learning, Parsing and Na
 
 Deep learning Recurrent Neural Network seq2seq model structure:
 
-![RNN seq2seq model structure](seq2seq_modelImage.jpeg)
+![RNN seq2seq model structure](seq2seq_modelImage.png)
 
 We first apply number mapping in order to remove the numbers from the problems. This gets us a better training because the sentences have less variation. The inputs go through an embedding layer for vector encoding and purposes and setting all of the inputs with the same length. The inputs go through the encoding layer and get encoded. The attention mechanism assign a weight to the input words and is then used by the decoder to predict the next word in the sentence. The decoder then return the predicctions and the decoder hidden state. We also apply the teacher forcing technique to decide the next input to the decoder, this technique passes the target word as the next input to the decoder.
 

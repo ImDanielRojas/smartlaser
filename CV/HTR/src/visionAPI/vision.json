@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skillful-figure-278023",
+  "private_key_id": "339c1b7fe060c7383c9eda9fc3b80786e2a8b314",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDaW2EQ7NXwucZ\nIKuof1esZh1+cA7p4m8+a0XkumkJbX20zZ+Bawik9coy64WhfcRITr1uo5bVU/m4\nCpV8qI0H/p1tCcw1g33ga7FoeaI1oIdrFHmGo+qvbaxn6C4i7KXpnObbK48gc72j\nu+RRnt9Aj4Vjc7jxbj4n6eKFZpdlYfaIZIlt17wxkORVmBul7hniaczeA7qlh8k4\nBXnnVWNqxhsUqFNqu87XX4YN91+sMPzGWNFADwjjjIe2Jqkv0gsC4jA+drsa1S3C\ngzpy7i5GyQUj3Yna6m7o6sBjty7Yn+1lPhcW9/N/tMT9NfjYaCtYrkS5rR4KMG2Y\nUMyaH7xBAgMBAAECggEARWsjCi0IvYESGsWV5ZZTXX2rNZr2WVTk4v41xqMIJF6+\nnOe9JbsRx5Q/X+Z2Qt/MRkmelvrLXv5lhGFSKIYyD6h+YVltL4eGRJ7NV8l5++YK\npVoRL+j0OpzR9dmv5h0+dWaVRj/LqSIkuNFLM0mmkqdJogJerXnV39UA8RX4a32K\nEJqwqo7HPPbQn2qLRzyR9z7kJTvj0VGQ7ZsvxwlnoHCA7wWlfmEH1NVP6ML9IqVm\npYWZ4hJQ/VTWC12A/kkdhCWJOuccordEr5fDtXwJ4W2aeU5fPZxCW0mjWouV1Tbp\nTjlzRsMY8f19ovE0KOZNNlNUIqVI45RmioaBvq1+5wKBgQDoe7uexFFSGo9OzU/6\nnFxs+Qc6qZujX+XZ/CRQmFcX6/JU6Inkc/s7jN49/rPhhfZXTs60+XA2nBtZsJWV\nu1uy4KuypCxwHN1ejbZ7RKawSIUo+ihLdbgZDvWcHdjQRi0GwKUSbxjtD1rWAGxE\nzBMTN9HkklfNcc3DFqbE56tNhwKBgQDXLbXnwEat3wPEDaM9Et+KVOurK1+E4cOU\nQJcKIgNGM99gSjrrBNI4rPoQEstgC/Q/Z35q2xhhQa08KQLlSSBdRt3xPyy/JKcI\n8QcCsU2bep4MkVLYyGVOl/dNArN8p0cdf/IbSdM1NAoseLUbYW4D32K09weDZcjo\n4DS9Y/xZ9wKBgQDN+yMm7mXmyuWCOmLMdtFlM9d14GSnggYS91Xtmqw/46uYE1hp\nc2F7R7p5TzxtatXyUT7QFdmYaQPKmaxPN+ttN6ao5tEAnHJ+niy6Vv8hXX+t6Mbe\n5PQyL5Dpu4AoOKUYQIOBK7H4CAzBYyqKYg3cjy6GyCrHOjfGzEECYQjj7QKBgQC6\nUKATPM92OYYfOdfASBk6w/ETUwjwHDOmqI6ffXfsT3n4/A0r9g64eD5FsKBcV71z\nMP+rMm5Xt/ByCOiy87CMU5JVE2iBURE4ksqJMFCMcY1sQGDFyC6/8KF3EwGqy4Su\nLFzL+A5jIN42R4Y5YRFLVR84pjThNz7RNWE1I+AbXQKBgFer6h2kEhZB3TdnT0J1\nybwkXn5elTiEoV/3IAx2nlQ+ANH502SorJ5bTcR708nBtVF5dVZ1CcncCueVN8jI\nBxQS/yv71qfSTsllsMR9aDJ3wvFnZrAC66sT1OOY/OdZPOguCL4cs3x448ytl59d\nC40nIu0f4Y1cbFVx8zLn+iHy\n-----END PRIVATE KEY-----\n",
+  "client_email": "handwrittingocr@skillful-figure-278023.iam.gserviceaccount.com",
+  "client_id": "118056699327453622972",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/handwrittingocr%40skillful-figure-278023.iam.gserviceaccount.com"
+}

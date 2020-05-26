@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>8.jpg</filename>
+	<path>C:\Users\xange\Downloads\dataset\images\train\8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>659</width>
+		<height>370</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>questionPaper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>54</ymin>
+			<xmax>352</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -11,6 +11,7 @@ You will need to install:
 - Tensorflow
 - Keras
 - nltk (and some lines of code that are commented in NLPMathWordProblemSolver.py in the NLP Parsing approach folder)
+- Webots
 
 ## Architecture
 

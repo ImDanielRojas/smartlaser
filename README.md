@@ -28,6 +28,15 @@ The NLP module consists of a hybrid model based on Deep Learning, Parsing and Na
 
 ### Laser Robotics Simulation module
 
+
+## Testing
+
+You can test this software with the math word problem set of examples in examplesToTest.txt
+If you want to test the NLP module by its own. You can do it by setting the smartLaserMODE variable to False in NLPMathWordProblemSolver.py and changing the access to the bag of words .txt to /{name_of_file}.txt
+We invite you to test this software with some math word problem of your own!
+
+
+
 ## Authors
 
 * **Daniel Rojas Pérez** - *NLP module* - [Github account](https://github.com/danielrojasperez)

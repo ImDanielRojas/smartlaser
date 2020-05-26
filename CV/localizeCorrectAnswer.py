@@ -21,7 +21,7 @@ def similar(a, b):
 
 def localizeCorrectAnswer(target):
     
-    
+    target=") "+target
     # Text segmentation 
     rgb = cv2.imread("CV/img/questionImage.png")
     
@@ -57,11 +57,12 @@ def localizeCorrectAnswer(target):
         x, y, w, h = cv2.boundingRect(contours[i])
     
         cv2.imwrite("CV/img/p.jpg",rgb[y-8:y+h+8,x-8:x+w+8])
-    
+        
         try:
             im = Image.open("CV/img/p.jpg")
             
             text = pytesseract.image_to_string(im)
+            
         except:
             pass
         simility=similar(target,text)
@@ -80,10 +81,13 @@ def localizeCorrectAnswer(target):
     respuesta=[i for i in respuesta if i !=' ']
     print(''.join(respuesta))
     f = open("outputs/result.txt", "w")
-    f.write(respuesta[0]+"\n")
-    f.write(''.join(respuesta[2:])+"\n")
-    f.write(str(x1+5)+" ")
-    f.write(str(y1+5)+" ")
+    try:
+        f.write(respuesta[0]+"\n")
+        f.write(''.join(respuesta[2:])+"\n")
+        f.write(str(x1+5)+" ")
+        f.write(str(y1+5)+" ")
+    except:
+        pass
     
     f.close()
     

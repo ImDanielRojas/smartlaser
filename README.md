@@ -40,7 +40,7 @@ We invite you to test this software with some math word problem of your own!
 ## Authors
 
 * **Daniel Rojas Pérez** - *NLP module* - [Github account](https://github.com/danielrojasperez)
-* **Ange Xu** - *CV module* - [Github account](https://github.com/)
+* **Ange Xu** - *CV module* - [Github account](https://github.com/xangeeee)
 * **Marcos Muñoz González** - *Laser Robotics Simulation module* - [Github account](https://github.com/marcosmgz95)
 * **Roger Piera** - *Laser Robotics Simulation module* - [Github account](https://github.com/RogerPiera)
 

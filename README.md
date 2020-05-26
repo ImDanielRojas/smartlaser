@@ -15,6 +15,7 @@ You will need to install:
 ## Architecture
 
 This software is divided in three main modules.
+![Software Achitecture diagram](smartlaserSoftwareArchitecture.jpeg)
 
 ### Natural Language Processing module
 

@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.4
+protoFileHash: 32fa72eb5bec5dfa0fbe1c4dee356c67
+containsDevices: 0
+baseType: Robot
+slotType: 
+parameters: controller,controllerArgs,translation,rotation,name,supportAppearance,spotLightColor,cutOffAngle,beamWidth,spotLightIntensity,spotLightRadius,spotLightCastShadows,height,radius,mass,centerOfMass,linearDamping,angularDamping,contactMaterial
+tags: static
+license:  Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+licenseUrl:  https://cyberbotics.com/webots_assets_license
+documentationUrl: 
+info: A\sceiling\sspot\slight.\n

@@ -1,0 +1,90 @@
+#VRML_SIM R2020a utf8
+# license: Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+# license url: https://cyberbotics.com/webots_assets_license
+# tags: static
+# A ceiling spot light.
+
+PROTO laser [
+field SFString   controller      "laser" # Is `Robot.controller`.
+  field SFString   controllerArgs  ""       # Is `Robot.controllerArgs`.
+  field SFVec3f    translation               0.152833 0.29 -0.00399434
+  field SFRotation rotation                  -0.634826 -0.634825 -0.440446 -2.31183
+  field SFString   name                      "ceiling light"
+  field SFNode     supportAppearance         DamascusSteel { }  # Defines the appearance of the light support.
+  field SFColor    spotLightColor            1 0 0              # Defines the color of the spot light.
+  field SFFloat    cutOffAngle            0.00209              # Defines the color of the spot light.
+  field SFFloat    beamWidth            0.5              # Defines the color of the spot light.
+  field SFFloat    spotLightIntensity        100000                # Defines the intensity of the spot light.
+  field SFFloat    spotLightRadius           12                # Defines the radius of the spot light.
+  field SFBool     spotLightCastShadows      FALSE              # Defines whether the spot light should cast shadows.
+  field SFFloat    height            0.5
+  field SFFloat    radius            0.5
+  field SFFloat    mass            0.055          # Defines the mass of the ball.
+  field MFVec3f    centerOfMass    [0 -0.0001 0]  # Defines the center of mass of the ball.
+  field SFFloat    linearDamping   0.17           # Defines the linear damping of the ball.
+  field SFFloat    angularDamping  0.33           # Defines the angular damping of the ball.
+  field SFString   contactMaterial "default"      # Is `Solid.contactMaterial`.
+]
+{
+    DEF ROBOT1 Robot {
+    translation IS translation
+    rotation IS rotation
+    children [
+      SpotLight {
+        attenuation 0 0 1
+        beamWidth IS beamWidth
+        cutOffAngle IS cutOffAngle
+        direction 0 -1 0
+        location 0 -0.038 0
+        radius 40
+        color 1 0 0
+        intensity IS spotLightIntensity
+        radius IS spotLightRadius
+        castShadows IS spotLightCastShadows
+      }
+      Shape {
+        appearance LedStrip {
+          emissiveIntensity %{= 20 * fields.spotLightIntensity.value }%
+          textureTransform TextureTransform {
+            scale 1.2 8
+            translation -0.06 0
+          }
+        }
+        geometry Cylinder {
+          height IS height
+          radius IS radius
+          side FALSE
+          top FALSE
+        }
+      }
+      DEF BALL_SHAPE Shape {
+        appearance PBRAppearance {
+            baseColor IS color
+            roughness 0.3
+            metalness 0
+        }
+        geometry Sphere {
+          radius IS radius
+          subdivision 4
+        }
+      }
+    ]
+    contactMaterial IS contactMaterial
+    boundingObject USE BALL_SHAPE
+    physics Physics {
+      density -1
+      mass IS mass
+      centerOfMass IS centerOfMass
+      inertiaMatrix [ 0.000023 0.000023 0.000023, 0 0 0 ]
+      damping Damping {
+        linear IS linearDamping
+        angular IS angularDamping
+      }
+    }
+    name IS name
+    model "ceiling light"
+    supervisor TRUE
+    controller IS controller
+    controllerArgs IS controllerArgs
+  }
+}

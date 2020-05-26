@@ -32,9 +32,14 @@ We first apply number mapping in order to remove the numbers from the problems. 
 ### Computer Vision module
 
 
-
 ### Laser Robotics Simulation module
 
+The Laser Robotics module consists on the simulation of the laser itself.
+Using the Webots program we created a espherical object that projects a laser over an image. 
+We can give exact coordinates for the laser to point to, or we can use some preprogamed coordiantes to point to the corners of the image. 
+This image, which can be changed, consist of 4 leters, A B C D, representing the answer options.
+We make use of a txt in which the content is provided by the other modules. Said content consists of the answer to the question and the coordinates of it.
+When we start the program, laser.py, our controller script, reads the txt file and points to the correct answer printing the answers value and coordinates.
 
 ## Testing
 

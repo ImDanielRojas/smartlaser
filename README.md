@@ -21,7 +21,13 @@ This software is divided in three main modules.
 
 ### Natural Language Processing module
 
-The NLP module consists of a hybrid model based on Deep Learning, Parsing and Naive Bayes techniques. We first started building a Recurrent Neural Network seq2seq model, built with a GRU Encoder, GRU Decoder and Bahdanau Attention. This model was tested with a broad number of datasets. However, the results were not as accurate as we desired. In order to support the lack of accuracy, we built another approach for the task. This approach consists in the parsing technique. The math word problem will be syntactically analyzed and will detect symbols and numbers from the text and build an equation to solve with the help of a Naive Bayes model classifier.
+The NLP module consists of a hybrid model based on Deep Learning, Parsing and Naive Bayes techniques. We first started building a Recurrent Neural Network seq2seq model, built with a GRU Encoder, GRU Decoder and Bahdanau Attention. This model was tested with a broad number of datasets. However, the results were not as accurate as we desired. In order to support the lack of accuracy, we built another approach for the task. This approach consists in the parsing technique. The math word problem will be syntactically analyzed and will detect symbols and numbers from the text and build an equation to solve with the help of a Naive Bayes model classifier, which will classify whether a symbol is positive or negative.
+
+Deep learning Recurrent Neural Network seq2seq model structure:
+
+![RNN seq2seq model structure](seq2seq_modelImage.jpeg)
+
+We first apply number mapping in order to remove the numbers from the problems. This gets us a better training because the sentences have less variation. The inputs go through an embedding layer for vector encoding and purposes and setting all of the inputs with the same length. The inputs go through the encoding layer and get encoded. The attention mechanism assign a weight to the input words and is then used by the decoder to predict the next word in the sentence. The decoder then return the predicctions and the decoder hidden state. We also apply the teacher forcing technique to decide the next input to the decoder, this technique passes the target word as the next input to the decoder.
 
 ### Computer Vision module
 

@@ -10,11 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 You will need to install:
 - Tensorflow
 - Keras
-- nltk
+- nltk (and some lines of code that are commented in NLPMathWordProblemSolver.py in the NLP Parsing approach folder)
 
 ## Architecture
 
 This software is divided in three main modules.
+
+![Software Achitecture diagram](smartlaserSoftwareArchitecture.jpeg)
 
 ### Natural Language Processing module
 
@@ -26,12 +28,21 @@ The NLP module consists of a hybrid model based on Deep Learning, Parsing and Na
 
 ### Laser Robotics Simulation module
 
+
+## Testing
+
+You can test this software with the math word problem set of examples in MathWordProblemsToTest.txt
+If you want to test the NLP module by its own. You can do it by setting the smartLaserMODE variable to False in NLPMathWordProblemSolver.py and changing the access to the bag of words .txt to /{name_of_file}.txt
+We invite you to test this software with some math word problem of your own!
+
+
+
 ## Authors
 
 * **Daniel Rojas Pérez** - *NLP module* - [Github account](https://github.com/danielrojasperez)
 * **Ange Xu** - *CV module* - [Github account](https://github.com/)
 * **Marcos Muñoz González** - *Laser Robotics Simulation module* - [Github account](https://github.com/marcosmgz95)
-* **Roger Piera** - *Laser Robotics Simulation module* - [Github account](https://github.com/)
+* **Roger Piera** - *Laser Robotics Simulation module* - [Github account](https://github.com/RogerPiera)
 
 ## License
 

@@ -66,7 +66,7 @@ NLP results:
 
 Laser Robotics Simulation results:
 
-![Simulation](examplesTested/simulator.png)
+![Simulation](examplesTested/simulation.JPG)
 
 
 ## Authors

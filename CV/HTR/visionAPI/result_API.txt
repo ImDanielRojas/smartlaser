@@ -1,0 +1,8 @@
+then
+If x,y and z ore positive mtege's and 3x=4y= 77,
+the least possible value of x+y+z is?
+a) 33
+b) 40
+c) 49
+d) 61
+e) 84

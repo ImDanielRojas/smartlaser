@@ -8,7 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 You will need to install:
-- Tensorflow
+- Tensorflow Object Detection API
+- Tesseract OCR
+- Google Cloud Vision API
+- PIL
+- OpenCV
 - Keras
 - nltk (and some lines of code that are commented in NLPMathWordProblemSolver.py in the NLP Parsing approach folder)
 - Webots
@@ -30,7 +34,8 @@ Deep learning Recurrent Neural Network seq2seq model structure:
 We first apply number mapping in order to remove the numbers from the problems. This gets us a better training because the sentences have less variation. The inputs go through an embedding layer for vector encoding and purposes and setting all of the inputs with the same length. The inputs go through the encoding layer and get encoded. The attention mechanism assign a weight to the input words and is then used by the decoder to predict the next word in the sentence. The decoder then return the predicctions and the decoder hidden state. We also apply the teacher forcing technique to decide the next input to the decoder, this technique passes the target word as the next input to the decoder.
 
 ### Computer Vision module
-
+The computer vision module consists of,first, using the tensorflow object detection API to detect the existence of the mathematical question paper in the camera scene. Once it is detected, we capture a photo of the paper, save it as an image and use ocr techniques to extract the mathematical question. With the help of the NPL module we calculate the correct answer to the question and then we proceed to locate it and point it within the image. Finally, this module saves the correct answer and its corresponding location in a txt, these data will be used by the Laser Robotics Simulation module.
+This module also uses Google Cloud service(Vision API) to perform handwriting recognition for handwritten questions
 
 ### Laser Robotics Simulation module
 

@@ -33,6 +33,16 @@ Deep learning Recurrent Neural Network seq2seq model structure:
 
 We first apply number mapping in order to remove the numbers from the problems. This gets us a better training because the sentences have less variation. The inputs go through an embedding layer for vector encoding and purposes and setting all of the inputs with the same length. The inputs go through the encoding layer and get encoded. The attention mechanism assign a weight to the input words and is then used by the decoder to predict the next word in the sentence. The decoder then return the predicctions and the decoder hidden state. We also apply the teacher forcing technique to decide the next input to the decoder, this technique passes the target word as the next input to the decoder.
 
+#### UPDATE:
+We have added a whole new NLP module. The module will make the robot perform a larger range of Natural Language Processing Tasks. Before, the robot could solve math word problems with the module we built. Now, with the help of the DecaNLP project, the robot is able to perform 10 tasks more. These new tasks are the nexts:
+Question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, relation extraction, goal-oriented dialogue, semantic parsing and pronoun resolution.
+These tasks are very diverse and are based on question answering, which suits perfectly with our robot model. Although not all of the tasks are optimal for it because our robot works better with shorter text so the camera can analyze the text better.
+Examples of this implementation can be found on the Results section of this Readme.
+The following figure is the model structure of the Multi Question Answering Model:
+
+![MQAN model structure](dnlpMQAN.PNG)
+
+
 ### Computer Vision module
 The computer vision module consists of,first, using the tensorflow object detection API to detect the existence of the mathematical question paper in the camera scene. Once it is detected, we capture a photo of the paper, save it as an image and use ocr techniques to extract the mathematical question. With the help of the NPL module we calculate the correct answer to the question and then we proceed to locate it and point it within the image. Finally, this module saves the correct answer and its corresponding location in a txt, these data will be used by the Laser Robotics Simulation module.
 This module also uses Google Cloud service(Vision API) to perform handwriting recognition for handwritten questions
@@ -59,15 +69,37 @@ NLP results:
 
 ![Math word problem 1](examplesTested/problem1.png)
 
-![Math word problem 1](examplesTested/problem2.png)
+![Math word problem 2](examplesTested/problem2.png)
 
-![Math word problem 1](examplesTested/problem3.png)
+![Math word problem 3](examplesTested/problem3.png)
 
-![Math word problem 1](examplesTested/problem4.png)
+![Math word problem 4](examplesTested/problem4.png)
 
-![Math word problem 1](examplesTested/problem5.png)
+![Math word problem 5](examplesTested/problem5.png)
 
-![Math word problem 1](examplesTested/problem6.png)
+![Math word problem 6](examplesTested/problem6.png)
+
+DecaNLP results:
+
+![Question Answering](dnlp1.PNG)
+
+![Machine Translation](dnlp2.PNG)
+
+![Summarization](dnlp3.PNG)
+
+![Natural Language Inference](dnlp4.PNG)
+
+![Sentiment Analysis](dnlp5.PNG)
+
+![Semantic Role Labeling](dnlp6.PNG)
+
+![Relation Extraction](dnlp7.PNG)
+
+![Goal-Oriented Dialogue](dnlp8.PNG)
+
+![Semantic Parsing](dnlp9.PNG)
+
+![Pronoun Resolution/Commonsense Reasoning](dnlp10.PNG)
 
 Laser Robotics Simulation results:
 

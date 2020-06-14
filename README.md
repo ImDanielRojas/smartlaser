@@ -93,24 +93,34 @@ We invite you to test this software with some math word problem of your own!
 
 ### DecaNLP results:
 
+####Question Answering
 ![Question Answering](examplesTested/dnlp1.PNG)
 
+#### Machine Translation
 ![Machine Translation](examplesTested/dnlp2.PNG)
 
+#### Summarization
 ![Summarization](examplesTested/dnlp3.PNG)
 
+#### Natural Language Inference
 ![Natural Language Inference](examplesTested/dnlp4.PNG)
 
+#### Sentiment Analysis
 ![Sentiment Analysis](examplesTested/dnlp5.PNG)
 
+#### Semantic Role Labeling
 ![Semantic Role Labeling](examplesTested/dnlp6.PNG)
 
+#### Relation Extraction
 ![Relation Extraction](examplesTested/dnlp7.PNG)
 
+#### Goal-Oriented Dialogue
 ![Goal-Oriented Dialogue](examplesTested/dnlp8.PNG)
 
+#### Semantic Parsing
 ![Semantic Parsing](examplesTested/dnlp9.PNG)
 
+#### Pronoun Resolution/Commonsense Reasoning
 ![Pronoun Resolution/Commonsense Reasoning](examplesTested/dnlp10.PNG)
 
 ### Laser Robotics Simulation results:

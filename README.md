@@ -34,7 +34,7 @@ Deep learning Recurrent Neural Network seq2seq model structure:
 We first apply number mapping in order to remove the numbers from the problems. This gets us a better training because the sentences have less variation. The inputs go through an embedding layer for vector encoding and purposes and setting all of the inputs with the same length. The inputs go through the encoding layer and get encoded. The attention mechanism assign a weight to the input words and is then used by the decoder to predict the next word in the sentence. The decoder then return the predicctions and the decoder hidden state. We also apply the teacher forcing technique to decide the next input to the decoder, this technique passes the target word as the next input to the decoder.
 
 #### UPDATE:
-We have added a whole new NLP module. The module will make the robot perform a larger range of Natural Language Processing Tasks. Before, the robot could solve math word problems with the module we built. Now, with the help of the DecaNLP project, the robot is able to perform 10 tasks more. These new tasks are the nexts:
+We have added a whole new NLP module. The module will make the robot perform a larger range of Natural Language Processing Tasks. Before, the robot could solve math word problems with the module we built. Now, with the help of the DecaNLP project, the robot is able to perform 10 tasks more, including some state-of-the-art tasks. These new tasks are the nexts:
 
 Question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, relation extraction, goal-oriented dialogue, semantic parsing and pronoun resolution.
 
@@ -42,9 +42,11 @@ These tasks are very diverse and are based on question answering, which suits pe
 
 Examples of this implementation can be found on the Results section of this Readme.
 
-The following figure is the model structure of the Multi Question Answering Model:
+All of these complex tasks are performed by a single system model. The following figure is the model structure of the Multi Question Answering Model:
 
 ![MQAN model structure](dnlpMQAN.PNG)
+
+
 
 
 ### Computer Vision module
@@ -85,25 +87,25 @@ NLP results:
 
 DecaNLP results:
 
-![Question Answering](dnlp1.PNG)
+![Question Answering](examplesTested/dnlp1.PNG)
 
-![Machine Translation](dnlp2.PNG)
+![Machine Translation](examplesTested/dnlp2.PNG)
 
-![Summarization](dnlp3.PNG)
+![Summarization](examplesTested/dnlp3.PNG)
 
-![Natural Language Inference](dnlp4.PNG)
+![Natural Language Inference](examplesTested/dnlp4.PNG)
 
-![Sentiment Analysis](dnlp5.PNG)
+![Sentiment Analysis](examplesTested/dnlp5.PNG)
 
-![Semantic Role Labeling](dnlp6.PNG)
+![Semantic Role Labeling](examplesTested/dnlp6.PNG)
 
-![Relation Extraction](dnlp7.PNG)
+![Relation Extraction](examplesTested/dnlp7.PNG)
 
-![Goal-Oriented Dialogue](dnlp8.PNG)
+![Goal-Oriented Dialogue](examplesTested/dnlp8.PNG)
 
-![Semantic Parsing](dnlp9.PNG)
+![Semantic Parsing](examplesTested/dnlp9.PNG)
 
-![Pronoun Resolution/Commonsense Reasoning](dnlp10.PNG)
+![Pronoun Resolution/Commonsense Reasoning](examplesTested/dnlp10.PNG)
 
 Laser Robotics Simulation results:
 

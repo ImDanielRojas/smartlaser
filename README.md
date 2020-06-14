@@ -19,9 +19,15 @@ You will need to install:
 
 ## Architecture
 
+### Old software architecture
 This software is divided in three main modules.
 
 ![Software Achitecture diagram](smartlaserSoftwareArchitecture.jpeg)
+
+### New software architecture
+After adding the DecaNLP module, the software architecture is the following:
+
+![Software Achitecture diagram](smartlaserNewSoftwareArchitecture.png)
 
 ### Natural Language Processing module
 

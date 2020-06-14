@@ -35,9 +35,13 @@ We first apply number mapping in order to remove the numbers from the problems. 
 
 #### UPDATE:
 We have added a whole new NLP module. The module will make the robot perform a larger range of Natural Language Processing Tasks. Before, the robot could solve math word problems with the module we built. Now, with the help of the DecaNLP project, the robot is able to perform 10 tasks more. These new tasks are the nexts:
+
 Question answering, machine translation, summarization, natural language inference, sentiment analysis, semantic role labeling, relation extraction, goal-oriented dialogue, semantic parsing and pronoun resolution.
+
 These tasks are very diverse and are based on question answering, which suits perfectly with our robot model. Although not all of the tasks are optimal for it because our robot works better with shorter text so the camera can analyze the text better.
+
 Examples of this implementation can be found on the Results section of this Readme.
+
 The following figure is the model structure of the Multi Question Answering Model:
 
 ![MQAN model structure](dnlpMQAN.PNG)

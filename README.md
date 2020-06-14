@@ -71,7 +71,7 @@ We invite you to test this software with some math word problem of your own!
 
 ## Results
 
-NLP results:
+### NLP results:
 
 ![Math word problem 1](examplesTested/problem1.png)
 
@@ -85,7 +85,7 @@ NLP results:
 
 ![Math word problem 6](examplesTested/problem6.png)
 
-DecaNLP results:
+### DecaNLP results:
 
 ![Question Answering](examplesTested/dnlp1.PNG)
 
@@ -107,7 +107,7 @@ DecaNLP results:
 
 ![Pronoun Resolution/Commonsense Reasoning](examplesTested/dnlp10.PNG)
 
-Laser Robotics Simulation results:
+### Laser Robotics Simulation results:
 
 ![Simulation](examplesTested/simulation.JPG)
 

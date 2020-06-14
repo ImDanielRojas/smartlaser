@@ -16,6 +16,7 @@ You will need to install:
 - Keras
 - nltk (and some lines of code that are commented in NLPMathWordProblemSolver.py in the NLP Parsing approach folder)
 - Webots
+- PyTorch
 
 ## Architecture
 
